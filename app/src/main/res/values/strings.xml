@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">Educationxyz</string>
+    <string name="app_name">Build With Romi Julianto</string>
     <string name="logo">logo</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="about">About</string>
+    <string name="course_name">Nama Course</string>
+    <string name="course_rating">Rating Course</string>
+    <string name="course_detail">Detail Course</string>
+    <string name="title_detail">Judul Course</string>
+    <string name="content_detail">Detail Content</string>
+    <string name="course_summary">Summary Course</string>
+    <string name="content_summary">Content Summary</string>
+    <string name="my_name">Nama Saya</string>
+    <string name="my_email">Email</string>
+    <string name="title_about_detail">Judul Detail Saya</string>
+    <string name="about_detail">Detail Saya</string>
+    <string name="profile">Profile</string>
 </resources>
