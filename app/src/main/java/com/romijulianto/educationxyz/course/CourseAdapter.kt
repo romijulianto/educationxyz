@@ -25,7 +25,7 @@ class CourseAdapter(private val ListCourse: ArrayList<Course>) : RecyclerView.Ad
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, rating, photo, summary, detail) = ListCourse[position]
+        val (name, rating, photo, summary, detail, tingkat, mapel, estimasi, web, modul) = ListCourse[position]
 
         Glide.with(holder.itemView.context)
             .load(photo)
@@ -44,13 +44,18 @@ class CourseAdapter(private val ListCourse: ArrayList<Course>) : RecyclerView.Ad
             moveDetail.putExtra(CourseDetail.EXTRA_PHOTO, photo)
             moveDetail.putExtra(CourseDetail.EXTRA_DETAIL, detail)
             moveDetail.putExtra(CourseDetail.EXTRA_SUMMARY, summary)
+            moveDetail.putExtra(CourseDetail.EXTRA_TINGKAT, tingkat)
+            moveDetail.putExtra(CourseDetail.EXTRA_MAPEL, mapel)
+            moveDetail.putExtra(CourseDetail.EXTRA_ESTIMASI, estimasi)
+            moveDetail.putExtra(CourseDetail.EXTRA_WEB, web)
+            moveDetail.putExtra(CourseDetail.EXTRA_MODUL, modul)
             mContext.startActivity(moveDetail)
         }
     }
 
     inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var tvName: TextView = itemView.findViewById(R.id.tv_item_name)
-        var tvRate: TextView = itemView.findViewById(R.id.tv_item_rate)
+        var tvRate: TextView = itemView.findViewById(R.id.tv_item_rating)
         var imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
     }
 

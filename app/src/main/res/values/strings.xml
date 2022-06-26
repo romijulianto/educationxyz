@@ -7,13 +7,18 @@
     <string name="course_name">Nama Course</string>
     <string name="course_rating">Rating Course</string>
     <string name="course_detail">Detail Course</string>
-    <string name="title_detail">Judul Course</string>
+    <string name="title_detail">Pemateri</string>
     <string name="content_detail">Detail Content</string>
     <string name="course_summary">Summary Course</string>
     <string name="content_summary">Content Summary</string>
-    <string name="my_name">Nama Saya</string>
-    <string name="my_email">Email</string>
+    <string name="my_name">Romi Julianto</string>
+    <string name="my_email">romyjulians@gmail.com</string>
     <string name="title_about_detail">Judul Detail Saya</string>
     <string name="about_detail">Detail Saya</string>
     <string name="profile">Profile</string>
+    <string name="content_tingkat">Tingkat Course</string>
+    <string name="content_mapel">Mapel</string>
+    <string name="content_estimasi">Estimasi Course</string>
+    <string name="content_website">Website Course</string>
+    <string name="content_modul">Modul Course</string>
 </resources>

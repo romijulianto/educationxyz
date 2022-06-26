@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showRecyclerList() {
-        rvCourse.layoutManager = LinearLayoutManager(this)
+        rvCourse.layoutManager = LinearLayoutManager(this@MainActivity)
         val courseAdapter = CourseAdapter(list)
         rvCourse.adapter = courseAdapter
     }

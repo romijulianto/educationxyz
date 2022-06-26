@@ -22,13 +22,22 @@ class CourseDetail : AppCompatActivity() {
         val tvSetIden: TextView = findViewById(R.id.tv_set_detail)
         val tvSummary: TextView = findViewById(R.id.tv_set_summary)
         val tvRating: TextView = findViewById(R.id.tv_item_rating)
+        val tvTingkat: TextView = findViewById(R.id.tv_set_level)
+        val tvMapel: TextView = findViewById(R.id.tv_set_mapel)
+        val tvEstimasi: TextView = findViewById(R.id.tv_set_estimasi)
+        val tvWeb: TextView = findViewById(R.id.tv_set_web )
+        val tvModul: TextView = findViewById(R.id.tv_set_Modul)
 
         val tName  = intent.getStringExtra(EXTRA_NAME)
         val tImg = intent.getStringExtra(EXTRA_PHOTO)
         val tIDetail = intent.getStringExtra(EXTRA_DETAIL)
         val tSummary = intent.getStringExtra(EXTRA_SUMMARY)
         val tRating = intent.getStringExtra(EXTRA_RATING)
-
+        val tTingkat = intent.getStringExtra(EXTRA_TINGKAT)
+        val tMapel = intent.getStringExtra(EXTRA_MAPEL)
+        val tEstimasi = intent.getStringExtra(EXTRA_ESTIMASI)
+        val tWeb = intent.getStringExtra(EXTRA_WEB)
+        val tModul = intent.getStringExtra(EXTRA_MODUL)
 
 
         tvSetName.text = tName
@@ -39,6 +48,11 @@ class CourseDetail : AppCompatActivity() {
         tvSetIden.text = tIDetail
         tvSummary.text = tSummary
         tvRating.text = tRating
+        tvTingkat.text = tTingkat
+        tvMapel.text = tMapel
+        tvEstimasi.text = tEstimasi
+        tvWeb.text = tWeb
+        tvModul.text = tModul
     }
 
     companion object {
@@ -47,6 +61,11 @@ class CourseDetail : AppCompatActivity() {
         const val EXTRA_DETAIL = "extra_detail"
         const val EXTRA_SUMMARY = "extra_summary"
         const val EXTRA_RATING = "extra_rating"
+        const val EXTRA_TINGKAT = "extra_tingkat"
+        const val EXTRA_MAPEL = "extra_mapel"
+        const val EXTRA_ESTIMASI = "extra_estimasi"
+        const val EXTRA_WEB = "extra_web"
+        const val EXTRA_MODUL = "extra_modul"
     }
 
     override fun onSupportNavigateUp(): Boolean {

@@ -5,5 +5,10 @@ data class Course(
     var rating: String = "",
     var photo: String = "",
     var summary: String = "",
-    var detail: String = ""
+    var detail: String = "",
+    var tingkat: String = "",
+    var mapel: String = "",
+    var estimasi: String = "",
+    var web: String = "",
+    var modul: String = ""
 )
