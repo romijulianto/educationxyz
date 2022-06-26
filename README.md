@@ -1,4 +1,4 @@
-# Submission Belajar Membuat Aplikasi Android untuk Pemula
+# Belajar Membuat Aplikasi Android untuk Pemula
 Submission - Belajar membuat aplikasi android untuk pemula dicoding
 
 # Brief Project
